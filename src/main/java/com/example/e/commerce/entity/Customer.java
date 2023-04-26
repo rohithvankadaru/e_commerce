@@ -24,6 +24,7 @@ public class Customer {
 
     String name;
 
+    @Column(unique = true)
     String emailId;
 
     Integer age;

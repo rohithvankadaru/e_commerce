@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "order")
+@Table(name = "orders")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Getter
 public class Ordered {
