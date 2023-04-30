@@ -24,6 +24,7 @@ public class SellerTransformer {
         return SellerAddResponse.builder()
                 .name(seller.getName())
                 .message("Seller added successfully")
+                .id(seller.getId())
                 .build();
     }
 

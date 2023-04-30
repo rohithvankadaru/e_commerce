@@ -3,16 +3,13 @@ package com.example.e.commerce.dto.ResponseDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-@Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
+@Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
-public class SellerAddResponse {
+public class CardResponse {
+    String cardNo;
 
-    Integer id;
-
-    String name;
-
-    String message;
+    String customerName;
 }

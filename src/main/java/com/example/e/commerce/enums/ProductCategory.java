@@ -6,5 +6,7 @@ public enum ProductCategory {
     SPORTS,
     BEAUTY,
     ELECTRONICS,
+    ELECTRICAL,
+    PLUMBING
 
 }
